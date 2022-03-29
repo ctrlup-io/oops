@@ -28,3 +28,8 @@ yarn install
 ## Available Scripts
 
 In the project directory, you can run:
+## Script
+
+### `commit`
+
+Use git-cz to generate commit.
