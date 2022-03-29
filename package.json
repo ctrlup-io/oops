@@ -7,7 +7,15 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "git-cz": "^4.8.0"
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "scripts": {
     "commit": "git-cz"
