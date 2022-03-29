@@ -32,3 +32,9 @@ In the project directory, you can run:
 ### `commit`
 
 Runs the [`git-cz`](https://github.com/streamich/git-cz) CLI to generate commit messages according to the [_Conventional Commit specifications_](https://www.conventionalcommits.org/en/v1.0.0/#specification).
+
+### `lint`
+
+Runs [ESLint](https://eslint.org/) with [standard configuration](https://standardjs.com/).
+
+We recommend to use ESLint in your IDE, e.g. in Visual Studio code with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
