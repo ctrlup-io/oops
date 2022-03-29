@@ -11,7 +11,8 @@
     "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.12.0",
     "git-cz": "^4.8.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "lint-staged": ">=10"
   },
   "scripts": {
     "commit": "git-cz",
@@ -34,5 +35,8 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
