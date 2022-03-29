@@ -1,3 +1,3 @@
 export default function oops() {
-    return 'Oops!!';
+    return 'Oops!';
 }
