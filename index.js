@@ -1,3 +1,3 @@
 export default function oops() {
-  console.log('Ooops!');
+  console.log("Ooops!");
 }

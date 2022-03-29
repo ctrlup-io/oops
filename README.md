@@ -38,3 +38,9 @@ Runs the [`git-cz`](https://github.com/streamich/git-cz) CLI to generate commit 
 Runs [ESLint](https://eslint.org/) with [standard configuration](https://standardjs.com/).
 
 We recommend to use ESLint in your IDE, e.g. in Visual Studio code with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+
+### `format`
+
+Runs [Prettier](https://prettier.io/) with [basic configuration](https://prettier.io/docs/en/configuration.html#basic-configuration).
+
+We recommend to use Prettier in your IDE, e.g. in Visual Studio code with [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
